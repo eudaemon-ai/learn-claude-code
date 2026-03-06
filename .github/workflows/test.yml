@@ -27,7 +27,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        session: [v0, v1, v2, v3, v4, v5, v6, v7, v8a, v8b, v8c, v9]
+        session: [s01, s02, s03, s04, s05, s06, s07, s08, s09, s10, s11, s12]
+    env:
+      TEST_API_KEY: ${{ secrets.TEST_API_KEY }}
+      TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
+      TEST_MODEL: ${{ secrets.TEST_MODEL }}
     steps:
       - uses: actions/checkout@v6
 
@@ -40,10 +44,7 @@ jobs:
         run: pip install anthropic python-dotenv
 
       - name: Run ${{ matrix.session }} tests
-        env:
-          TEST_API_KEY: ${{ secrets.TEST_API_KEY }}
-          TEST_BASE_URL: ${{ secrets.TEST_BASE_URL }}
-          TEST_MODEL: ${{ secrets.TEST_MODEL }}
+        if: env.TEST_API_KEY != ''
         run: python tests/test_${{ matrix.session }}.py
 
   web-build:
