@@ -3,7 +3,7 @@
 <img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
 
 Scan with Wechat to fellow us,  
-or fellow on X: [shareAI-Lab](https://x.com/baicai003)  
+or fellow on X: [EudaemonAI](https://x.com/baicai003)  
 
 
 ```
@@ -99,7 +99,7 @@ Treat the team JSONL mailbox protocol in this repo as a teaching implementation,
 ## Quick Start
 
 ```sh
-git clone https://github.com/shareAI-lab/learn-claude-code
+git clone https://github.com/eudaemon-ai/learn-claude-code
 cd learn-claude-code
 pip install -r requirements.txt
 cp .env.example .env   # Edit .env with your ANTHROPIC_API_KEY
@@ -189,17 +189,17 @@ After the 12 sessions you understand how an agent works inside out. Two ways to 
 
 ### Kode Agent CLI -- Open-Source Coding Agent CLI
 
-> `npm i -g @shareai-lab/kode`
+> `npm i -g @eudaemon-ai/kode`
 
 Skill & LSP support, Windows-ready, pluggable with GLM / MiniMax / DeepSeek and other open models. Install and go.
 
-GitHub: **[shareAI-lab/Kode-cli](https://github.com/shareAI-lab/Kode-cli)**
+GitHub: **[eudaemon-ai/Kode-cli](https://github.com/eudaemon-ai/Kode-cli)**
 
 ### Kode Agent SDK -- Embed Agent Capabilities in Your App
 
 The official Claude Code Agent SDK communicates with a full CLI process under the hood -- each concurrent user means a separate terminal process. Kode SDK is a standalone library with no per-user process overhead, embeddable in backends, browser extensions, embedded devices, or any runtime.
 
-GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent-sdk)**
+GitHub: **[eudaemon-ai/Kode-agent-sdk](https://github.com/eudaemon-ai/Kode-agent-sdk)**
 
 ---
 
@@ -214,7 +214,7 @@ The agent this repo teaches is **use-and-discard** -- open a terminal, give it a
 
 Add multi-channel IM routing (WhatsApp / Telegram / Slack / Discord, 13+ platforms), persistent context memory, and a Soul personality system, and the agent goes from a disposable tool to an always-on personal AI assistant.
 
-**[claw0](https://github.com/shareAI-lab/claw0)** is our companion teaching repo that deconstructs these mechanisms from scratch:
+**[claw0](https://github.com/eudaemon-ai/claw0)** is our companion teaching repo that deconstructs these mechanisms from scratch:
 
 ```
 claw agent = agent core + heartbeat + cron + IM chat + memory + soul

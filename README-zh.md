@@ -95,7 +95,7 @@ def agent_loop(messages):
 ## 快速开始
 
 ```sh
-git clone https://github.com/shareAI-lab/learn-claude-code
+git clone https://github.com/eudaemon-ai/learn-claude-code
 cd learn-claude-code
 pip install -r requirements.txt
 cp .env.example .env   # 编辑 .env 填入你的 ANTHROPIC_API_KEY
@@ -185,17 +185,17 @@ learn-claude-code/
 
 ### Kode Agent CLI -- 开源 Coding Agent CLI
 
-> `npm i -g @shareai-lab/kode`
+> `npm i -g @eudaemon-ai/kode`
 
 支持 Skill & LSP, 适配 Windows, 可接 GLM / MiniMax / DeepSeek 等开放模型。装完即用。
 
-GitHub: **[shareAI-lab/Kode-cli](https://github.com/shareAI-lab/Kode-cli)**
+GitHub: **[eudaemon-ai/Kode-cli](https://github.com/eudaemon-ai/Kode-cli)**
 
 ### Kode Agent SDK -- 把 Agent 能力嵌入你的应用
 
 官方 Claude Code Agent SDK 底层与完整 CLI 进程通信 -- 每个并发用户 = 一个终端进程。Kode SDK 是独立库, 无 per-user 进程开销, 可嵌入后端、浏览器插件、嵌入式设备等任意运行时。
 
-GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent-sdk)**
+GitHub: **[eudaemon-ai/Kode-agent-sdk](https://github.com/eudaemon-ai/Kode-agent-sdk)**
 
 ---
 
@@ -210,7 +210,7 @@ GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent
 
 再加上 IM 多通道路由 (WhatsApp/Telegram/Slack/Discord 等 13+ 平台)、不清空的上下文记忆、Soul 人格系统, agent 就从一个临时工具变成了始终在线的个人 AI 助手。
 
-**[claw0](https://github.com/shareAI-lab/claw0)** 是我们的姊妹教学仓库, 从零拆解这些机制:
+**[claw0](https://github.com/eudaemon-ai/claw0)** 是我们的姊妹教学仓库, 从零拆解这些机制:
 
 ```
 claw agent = agent core + heartbeat + cron + IM chat + memory + soul
