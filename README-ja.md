@@ -95,7 +95,7 @@ def agent_loop(messages):
 ## クイックスタート
 
 ```sh
-git clone https://github.com/shareAI-lab/learn-claude-code
+git clone https://github.com/eudaemon-ai/learn-claude-code
 cd learn-claude-code
 pip install -r requirements.txt
 cp .env.example .env   # .env を編集して ANTHROPIC_API_KEY を入力
@@ -185,17 +185,17 @@ learn-claude-code/
 
 ### Kode Agent CLI -- オープンソース Coding Agent CLI
 
-> `npm i -g @shareai-lab/kode`
+> `npm i -g @eudaemon-ai/kode`
 
 Skill & LSP 対応、Windows 対応、GLM / MiniMax / DeepSeek 等のオープンモデルに接続可能。インストールしてすぐ使える。
 
-GitHub: **[shareAI-lab/Kode-cli](https://github.com/shareAI-lab/Kode-cli)**
+GitHub: **[eudaemon-ai/Kode-cli](https://github.com/eudaemon-ai/Kode-cli)**
 
 ### Kode Agent SDK -- アプリにエージェント機能を埋め込む
 
 公式 Claude Code Agent SDK は内部で完全な CLI プロセスと通信する -- 同時ユーザーごとに独立のターミナルプロセスが必要。Kode SDK は独立ライブラリでユーザーごとのプロセスオーバーヘッドがなく、バックエンド、ブラウザ拡張、組み込みデバイス等に埋め込み可能。
 
-GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent-sdk)**
+GitHub: **[eudaemon-ai/Kode-agent-sdk](https://github.com/eudaemon-ai/Kode-agent-sdk)**
 
 ---
 
@@ -210,7 +210,7 @@ GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent
 
 さらにマルチチャネル IM ルーティング (WhatsApp / Telegram / Slack / Discord 等 13+ プラットフォーム)、永続コンテキストメモリ、Soul パーソナリティシステムを加えると、エージェントは使い捨てツールから常時稼働のパーソナル AI アシスタントへ変貌する。
 
-**[claw0](https://github.com/shareAI-lab/claw0)** はこれらのメカニズムをゼロから分解する姉妹教材リポジトリ:
+**[claw0](https://github.com/eudaemon-ai/claw0)** はこれらのメカニズムをゼロから分解する姉妹教材リポジトリ:
 
 ```
 claw agent = agent core + heartbeat + cron + IM chat + memory + soul

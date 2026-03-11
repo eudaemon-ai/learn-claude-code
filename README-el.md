@@ -3,7 +3,7 @@
 <img width="260" src="https://github.com/user-attachments/assets/fe8b852b-97da-4061-a467-9694906b5edf" /><br>
 
 Σκανάρετε με Wechat για να μας ακολουθήσετε,  
-ή ακολουθήστε στο X: [shareAI-Lab](https://x.com/baicai003)  
+ή ακολουθήστε στο X: [EudaemonAI](https://x.com/baicai003)  
 
 
 ```
@@ -99,7 +99,7 @@ def agent_loop(messages):
 ## Γρήγορη Εκκίνηση
 
 ```sh
-git clone https://github.com/shareAI-lab/learn-claude-code
+git clone https://github.com/eudaemon-ai/learn-claude-code
 cd learn-claude-code
 pip install -r requirements.txt
 cp .env.example .env   # Edit .env with your ANTHROPIC_API_KEY
@@ -189,17 +189,17 @@ Mental-model-first: πρόβλημα, λύση, ASCII διάγραμμα, ελά
 
 ### Kode Agent CLI -- Open-Source Coding Agent CLI
 
-> `npm i -g @shareai-lab/kode`
+> `npm i -g @eudaemon-ai/kode`
 
 Υποστήριξη Skill & LSP, έτοιμο για Windows, pluggable με GLM / MiniMax / DeepSeek και άλλα ανοιχτά μοντέλα. Εγκατάστησε και ξεκίνα.
 
-GitHub: **[shareAI-lab/Kode-cli](https://github.com/shareAI-lab/Kode-cli)**
+GitHub: **[eudaemon-ai/Kode-cli](https://github.com/eudaemon-ai/Kode-cli)**
 
 ### Kode Agent SDK -- Ενσωμάτωσε Agent Capabilities στην Εφαρμογή σου
 
 Το επίσημο Claude Code Agent SDK επικοινωνεί με μια πλήρη CLI διαδικασία στο παρασκήνιο -- κάθε ταυτόχρονος χρήστης σημαίνει μια ξεχωριστή terminal διαδικασία. Το Kode SDK είναι μια αυτόνομη βιβλιοθήκη χωρίς overhead διαδικασίας ανά χρήστη, ενσωματώσιμη σε backends, browser extensions, embedded devices, ή οποιοδήποτε runtime.
 
-GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent-sdk)**
+GitHub: **[eudaemon-ai/Kode-agent-sdk](https://github.com/eudaemon-ai/Kode-agent-sdk)**
 
 ---
 
@@ -214,7 +214,7 @@ GitHub: **[shareAI-lab/Kode-agent-sdk](https://github.com/shareAI-lab/Kode-agent
 
 Πρόσθεσε multi-channel IM routing (WhatsApp / Telegram / Slack / Discord, 13+ πλατφόρμες), persistent context memory, και ένα Soul personality system, και ο agent πηγαίνει από ένα disposable εργαλείο σε έναν always-on προσωπικό AI βοηθό.
 
-Το **[claw0](https://github.com/shareAI-lab/claw0)** είναι το συνοδευτικό μας διδακτικό repo που αποδομεί αυτούς τους μηχανισμούς από το μηδέν:
+Το **[claw0](https://github.com/eudaemon-ai/claw0)** είναι το συνοδευτικό μας διδακτικό repo που αποδομεί αυτούς τους μηχανισμούς από το μηδέν:
 
 ```
 claw agent = agent core + heartbeat + cron + IM chat + memory + soul
